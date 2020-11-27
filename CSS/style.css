@@ -27,10 +27,34 @@ nav ul li {
 
 a {
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
 }
 
 p {
-    color: red;
+    color: darkslategray;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col img {
+    max-width: 70%;
+    padding: 50px 0;
 }
