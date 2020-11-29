@@ -134,7 +134,7 @@ p {
 
 .title::after {
     content: '';
-    background: chocolate;
+    background: coral;
     width: 80px;
     height: 5px;
     border-radius: 5px;
