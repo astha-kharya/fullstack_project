@@ -269,7 +269,23 @@ ul {
     }
 }
 
-@media only screen and (max-width:800px) {
+
+/*---all products-----*/
+
+.row-2 {
+    justify-content: space-between;
+    margin: 120px auto 80px;
+}
+
+select {
+    border: 1px solid #ff523b;
+}
+
+select:focus {
+    outline: none;
+}
+
+@media only screen and (max-width:600px) {
     .row {
         text-align: center;
     }
